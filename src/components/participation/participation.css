@@ -1,0 +1,43 @@
+.participationWrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+.participationContainer {
+    max-width: 906px;
+    margin: 0 auto;
+}
+.participationWrapper h2 {
+    color: #21201F;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -1.12px;
+    margin-bottom: 48px;
+}
+.participationItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 114px;
+
+}
+.participationItem {
+    width: calc(50% - 57px);
+    box-sizing: border-box;
+}
+.participationItem img {
+    max-width: 84px;
+    margin-bottom: 16px;
+}
+.participationItem p {
+    max-width: 400px;
+    color: #21201F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
