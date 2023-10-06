@@ -131,3 +131,45 @@
         transform: rotate(360deg);
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .banner {
+        max-width: 728px;
+    }
+    .bannerInformation img {
+        width: 60px;
+    }
+    .bannerInformation h1 {
+        font-size: 36px;
+    }
+    .bannerInformation p {
+        font-size: 14px;
+    }
+    .bannerInformation button {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+    .cost-group {
+        font-size: 12px;
+    }
+    .main-cost {
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+    .before-cost {
+        font-size: 8px;
+        padding: 5px 8px;
+    }
+    .bannerImg:before {
+        width: 350px;
+        height: 240px;
+    }
+    .bannerImg img {
+        width: 100%;
+    }
+    .bannerImg img.circle {
+        width: 90px;
+        top: calc(50% + 4px);
+        left: calc(50% - 87px);
+    }
+}

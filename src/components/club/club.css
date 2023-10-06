@@ -1,6 +1,6 @@
 .clubWrapper {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
 }
 .clubContainer {
     max-width: 906px;
@@ -64,4 +64,29 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1200px) {
+    .clubContainer{
+        max-width: 728px;
+    }
+    .clubItems {
+        row-gap: 64px;
+        column-gap: 29px;
+    }
+    .clubItem {
+        width: calc(50% - 15px);
+    }
+    .clubItem h2 {
+        font-size: 24px;
+    }
+    .clubItem p {
+        font-size: 14px;
+    }
+    .clubItem img {
+        width: 100%;
+    }
+    .clubItem button {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
 }

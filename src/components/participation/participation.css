@@ -41,3 +41,26 @@
     font-weight: 500;
     line-height: 120%;
 }
+
+@media screen and (max-width: 1200px) {
+    .participationWrapper {
+        max-width: 728px;
+    }
+    .participationWrapper h2 {
+        font-size: 28px;
+    }
+    .participationItems {
+        row-gap: 30px;
+        column-gap: 57px;
+    }
+    .participationItem {
+        width: calc(50% - 29px);
+    }
+    .participationItem img {
+        margin-bottom: 8px;
+    }
+    .participationItem p {
+        margin-top: 0;
+        font-size: 14px;
+    }
+}
